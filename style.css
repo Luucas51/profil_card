@@ -143,3 +143,29 @@ body {
     font-size: var(--font-size);
     font-weight: bolder;
 }
+
+.like {
+    display: flex;
+    flex-direction: column;
+    height: 90px;
+    width: 50px;
+    margin-left: 120px;
+    margin-top: -90px;
+}
+
+.title-like {
+    margin-left: 100px;
+    font-family: var(--font-family);
+    font-size: 13px;
+    color: var(--dark-gray);
+    font-weight: bolder;
+    margin-top: -10px;
+}
+
+.nb-like {
+    margin-top: 25px;
+    margin-left: 100px;
+    font-family: var(--font-family);
+    font-size: var(--font-size);
+    font-weight: bolder;
+}
