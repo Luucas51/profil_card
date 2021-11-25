@@ -169,3 +169,29 @@ body {
     font-size: var(--font-size);
     font-weight: bolder;
 }
+
+.picture {
+    display: flex;
+    flex-direction: column;
+    height: 90px;
+    width: 50px;
+    margin-left: 120px;
+    margin-top: -90px;
+}
+
+.title-picture {
+    margin-left: 250px;
+    font-family: var(--font-family);
+    font-size: 13px;
+    color: var(--dark-gray);
+    font-weight: bolder;
+    margin-top: -10px;
+}
+
+.nb-picture {
+    margin-top: 25px;
+    margin-left: 250px;
+    font-family: var(--font-family);
+    font-size: var(--font-size);
+    font-weight: bolder;
+}
