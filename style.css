@@ -61,8 +61,7 @@ body {
 }
 
 .card {
-    display: flex;
-    width: 450px;
+    width: 450px, calc(50vh - 100px),400px;
     height: 500px;
     border-radius: 20px;
     background-color: white;
@@ -71,22 +70,21 @@ body {
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    position: absolute;
 }
 
-.card-bottom {
-    justify-content: flex-start;
-    width: 450px;
-    height: 230px;
+.card-top {
+    height: 200px;
     border-top-left-radius: 18px;
     border-top-right-radius: 18px;
-    background-image: url(/pictures/bg-pattern-card.svg);
-    background-size: contain;
+    background-image: url("pictures/bg-pattern-card.svg");
+    background-size: 450px;
 }
 
 .picture-profil-card {
     margin-left: auto;
     margin-right: auto;
-    margin-top: 155px;
+    margin-top: -80px;
     width: 150px;
     height: 150px;
     border: solid 5px white;
@@ -95,6 +93,53 @@ body {
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
-    background-image: url(/pictures/owner.jpeg);
+    background-image: url("/pictures/owner.jpeg");
     background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.name-text {
+    font-family: var(--font-family);
+    font-weight: bolder;
+    font-size: var(--font-size);
+    margin-left: 190px;
+    margin-right: 180px;
+}
+
+.year {
+    color: var(--dark-gray);
+}
+
+.city {
+    margin-left: 35px;
+    color: var(--dark-gray);
+}
+
+.separation-bar {
+    width: 500px;
+    border: solid 1px var(--dark-gray);
+    opacity: 0.5;
+}
+
+.follower {
+    display: flex;
+    flex-direction: column;
+    height: 90px;
+}
+
+.title-follow {
+    margin-left: 80px;
+    font-family: var(--font-family);
+    font-size: 13px;
+    color: var(--dark-gray);
+    font-weight: bolder;
+    margin-top: -10px;
+}
+
+.nb-follow {
+    margin-top: 25px;
+    margin-left: 80px;
+    font-family: var(--font-family);
+    font-size: var(--font-size);
+    font-weight: bolder;
 }
