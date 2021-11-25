@@ -98,6 +98,20 @@ body {
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 
+.picture-profil-card:hover {
+    border: 0px;
+    transition-duration: 0.2s;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    -webkit-transition:;
+    -moz-transition:;
+    -ms-transition:;
+    -o-transition:;
+}
+
 .name-text {
     font-family: var(--font-family);
     font-weight: bolder;
@@ -134,6 +148,7 @@ body {
     color: var(--dark-gray);
     font-weight: bolder;
     margin-top: -10px;
+    cursor: pointer;
 }
 
 .nb-follow {
@@ -142,6 +157,7 @@ body {
     font-family: var(--font-family);
     font-size: var(--font-size);
     font-weight: bolder;
+    cursor: pointer;
 }
 
 .like {
@@ -160,6 +176,7 @@ body {
     color: var(--dark-gray);
     font-weight: bolder;
     margin-top: -10px;
+    cursor: pointer;
 }
 
 .nb-like {
@@ -168,6 +185,7 @@ body {
     font-family: var(--font-family);
     font-size: var(--font-size);
     font-weight: bolder;
+    cursor: pointer;
 }
 
 .picture {
@@ -186,6 +204,7 @@ body {
     color: var(--dark-gray);
     font-weight: bolder;
     margin-top: -10px;
+    cursor: pointer;
 }
 
 .nb-picture {
@@ -194,4 +213,5 @@ body {
     font-family: var(--font-family);
     font-size: var(--font-size);
     font-weight: bolder;
+    cursor: pointer;
 }
