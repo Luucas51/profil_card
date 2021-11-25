@@ -1,0 +1,100 @@
+/*# Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+Dark cyan: hsl(185, 75%, 39%)
+Very dark desaturated blue: hsl(229, 23%, 23%)
+Dark grayish blue: hsl(227, 10%, 46%)
+
+### Neutral
+
+Dark gray: hsl(0, 0%, 59%)
+
+## Typography
+
+### Body Copy
+
+- Font size (name and stats): 18px
+
+### Font
+
+- Family: [Kumbh Sans](https://fonts.google.com/specimen/Kumbh+Sans)
+- Weights: 400, 700*/
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100;200&family=Open+Sans:wght@300;500&family=Outfit:wght@100&family=Roboto:ital,wght@0,300;1,100&display=swap');
+:root {
+    /* Primary */
+    --primary-dark-cyan: hsl(185, 75%, 39%);
+    --very-dark-blue: hsl(229, 23%, 23%);
+    --dark-greyish-blue: hsl(227, 10%, 46%);
+
+    /* Neutral */
+
+    --dark-gray: hsl(0, 0%, 59%);
+
+    /* Font */
+
+    --font-size: 18px;
+    --font-weight-400: 400;
+    --font-weight-700: 700;
+    --font-family: 'Kumbh Sans', sans-serif;
+    --dark-blue-main: hsl(217, 54%, 11%);
+}
+
+body {
+    background-color: var(--dark-blue-main);
+}
+
+.center-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+.card {
+    display: flex;
+    width: 450px;
+    height: 500px;
+    border-radius: 20px;
+    background-color: white;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.card-bottom {
+    justify-content: flex-start;
+    width: 450px;
+    height: 230px;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+    background-image: url(/pictures/bg-pattern-card.svg);
+    background-size: contain;
+}
+
+.picture-profil-card {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 155px;
+    width: 150px;
+    height: 150px;
+    border: solid 5px white;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-image: url(/pictures/owner.jpeg);
+    background-size: cover;
+}
